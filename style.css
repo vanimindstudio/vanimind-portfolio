@@ -193,23 +193,26 @@ a {
 
 .monogram {
   display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: clamp(80px, 12vw, 150px);
-  font-weight: 800;
-  letter-spacing: -0.04em;
+  font-weight: 900;
+  letter-spacing: 0.02em;
   line-height: 1;
   white-space: nowrap;
-  transform: skew(-7deg);
+
   background: linear-gradient(120deg, #e527f2 12%, #812aff 72%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+
   filter: drop-shadow(0 0 22px rgba(174, 42, 255, 0.25));
 }
 
 .monogram span {
-  display: inline-block;
+  display: inline;
   transform: none;
+  letter-spacing: inherit;
 }
 
 /* Floating orbs */
